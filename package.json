@@ -1,0 +1,39 @@
+{
+  "name": "%NAME%",
+  "version": "1.0.0",
+  "description": "%DESCRIPTION%",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorGreco/%REPO_NAME%.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "express",
+    "microservice"
+  ],
+  "author": "VictorGreco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VictorGreco/%REPO_NAME%/issues"
+  },
+  "homepage": "https://github.com/VictorGreco/%REPO_NAME%#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.1",
+    "nodemon": "^2.0.14",
+    "supertest": "^6.1.6"
+  }
+}
